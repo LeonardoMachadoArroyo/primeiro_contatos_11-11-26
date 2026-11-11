@@ -6,5 +6,5 @@ const usuarioSchema = new mongoose.Schema({
   senhaHash: { type: String, required: true }
 
 }); 
-console.log("");
+console.log("  ");
 module.exports = mongoose.model('Usuario', usuarioSchema); 
